@@ -9,7 +9,7 @@ jobs:
         run: echo "hello world"
 
   testJob:
-    runs-on: ubuntu-latest
+    runs-on: Ubuntu-20.04
     steps:
       - name: Run tests
         run: python3 all_tests.py
