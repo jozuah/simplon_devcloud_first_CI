@@ -7,3 +7,9 @@ jobs:
     steps:
       - name: Test hello World
         run: echo "hello world"
+
+  testJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run tests
+        run: python3 all_tests.py
