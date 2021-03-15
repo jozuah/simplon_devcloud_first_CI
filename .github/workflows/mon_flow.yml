@@ -21,6 +21,6 @@ jobs:
         architecture: 'x64'
     # You can test your matrix by printing the current Python version
     - name: Display Python version
-      run: echo "Hello test"
+      run: python3 all_tests.py
       #- name: Run tests
       #  run: python3 all_tests.py
